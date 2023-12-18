@@ -1,0 +1,314 @@
+@media only screen and (max-width: 767px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    body{
+        background: #0e0c0c49;
+      
+    }
+    .container{
+        width: 80%;
+        height: 400px;
+        background: red;
+        position: absolute;
+        top: 20%;
+        left: 10%;
+        border-radius: 10px;
+      
+    }
+    
+
+.todoList{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    background: #ffffff;
+    padding: 5px;
+  border-bottom: 1px solid gray;
+  border-radius: 5px;
+  height: 40px;
+  box-shadow: 5px 5px rgb(0, 0, 1, 0.5);
+  font-weight: bold;
+  position: relative;
+  left: 10%;
+  
+  width: 200px;
+  
+}
+
+.deleteTask{
+    cursor: pointer;
+ width: 25px;
+ height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background: red;
+    color: #ffffff;
+    outline: none;
+    align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.pText{
+    background: #ffffff;
+    text-transform: capitalize;
+   
+}
+
+.inputvalue{
+   
+    display: flex;
+    margin: 5px;
+    margin-bottom: 60px;
+}
+
+.inputVal{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    
+    border: 2px solid black;
+  
+}
+
+.btn{
+    width: 100px;
+    background: green;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline-style: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px #03110c;;
+    
+}
+
+.clearTask{
+    position: absolute;
+   bottom: 25px;
+   left: 15%;
+   background: blue;
+   color: #ffffff;
+   width: 200px;
+   height: 35px;
+   border-radius: 5px;
+   text-transform: capitalize;
+   font-weight: bold;
+   cursor: pointer;
+   outline-style: none;
+}
+
+
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background: #0e0c0c49;
+  
+}
+.container{
+    width: 450px;
+    height: 500px;
+    background: red;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    margin: auto 0;
+    border-radius: 10px;
+  
+}
+
+
+
+.todoList{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    background: #ffffff;
+    padding: 5px;
+  border-bottom: 1px solid gray;
+  border-radius: 5px;
+  height: 40px;
+  box-shadow: 5px 5px rgb(0, 0, 1, 0.5);
+  font-weight: bold;
+  flex-wrap: wrap;
+  width: 325px;
+  
+}
+.deleteTask{
+    cursor: pointer;
+ width: 25px;
+ height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background: red;
+    color: #ffffff;
+    outline: none;
+    align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.pText{
+    background: #ffffff;
+    text-transform: capitalize;
+   
+}
+.inputvalue{
+   
+    display: flex;
+    margin: 5px;
+    margin-bottom: 60px;
+}
+.inputVal{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 5px;
+    text-align: center;
+    
+    border: 2px solid black;
+  
+}
+.btn{
+    width: 100px;
+    background: green;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline-style: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px #03110c;;
+    
+}
+.clearTask{
+    position: absolute;
+   bottom: 35px;
+   left: 15%;
+   background: blue;
+   color: #ffffff;
+   width: 250px;
+   height: 35px;
+   border-radius: 5px;
+   text-transform: capitalize;
+   font-weight: bold;
+   cursor: pointer;
+   outline-style: none;
+}
+
+}
+
+@media screen and (min-width: 1024px){  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background: #0e0c0c49;
+  
+}
+.container{
+    width: 350px;
+    height: 400px;
+    background: red;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    margin: auto 0;
+    border-radius: 10px;
+  
+}
+
+
+
+.todoList{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    background: #ffffff;
+    padding: 5px;
+  border-bottom: 1px solid gray;
+  border-radius: 5px;
+  height: 40px;
+  box-shadow: 5px 5px rgb(0, 0, 1, 0.5);
+  font-weight: bold;
+  flex-wrap: wrap;
+  width: 325px;
+  
+}
+.deleteTask{
+    cursor: pointer;
+ width: 25px;
+ height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background: red;
+    color: #ffffff;
+    outline: none;
+    align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.pText{
+    background: #ffffff;
+    text-transform: capitalize;
+   
+}
+.inputvalue{
+   
+    display: flex;
+    margin: 5px;
+    margin-bottom: 60px;
+}
+.inputVal{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 5px;
+    text-align: center;
+    
+    border: 2px solid black;
+  
+}
+.btn{
+    width: 100px;
+    background: green;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline-style: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px #03110c;;
+    
+}
+.clearTask{
+    position: absolute;
+   bottom: 5px;
+   left: 15%;
+   background: blue;
+   color: #ffffff;
+   width: 250px;
+   height: 35px;
+   border-radius: 5px;
+   text-transform: capitalize;
+   font-weight: bold;
+   cursor: pointer;
+   outline-style: none;
+}
+}
